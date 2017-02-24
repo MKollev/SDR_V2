@@ -1,0 +1,12 @@
+D:\Projects\SDR_V2\BackLogic\bin\Release\BackLogic.dll.config
+D:\Projects\SDR_V2\BackLogic\bin\Release\BackLogic.dll
+D:\Projects\SDR_V2\BackLogic\bin\Release\BackLogic.pdb
+D:\Projects\SDR_V2\BackLogic\bin\Release\DynamicDataDisplay.dll
+D:\Projects\SDR_V2\BackLogic\bin\Release\DynamicDataDisplay.Maps.dll
+D:\Projects\SDR_V2\BackLogic\bin\Release\DynamicDataDisplay.Markers.dll
+D:\Projects\SDR_V2\BackLogic\bin\Release\DynamicDataDisplay.Markers2.dll
+D:\Projects\SDR_V2\BackLogic\bin\Release\EntityFramework.dll
+D:\Projects\SDR_V2\BackLogic\bin\Release\Parser.dll
+D:\Projects\SDR_V2\BackLogic\bin\Release\EntityFramework.xml
+D:\Projects\SDR_V2\BackLogic\obj\Release\BackLogic.dll
+D:\Projects\SDR_V2\BackLogic\obj\Release\BackLogic.pdb

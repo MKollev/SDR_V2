@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="airscanModelStoreContainer" CdmEntityContainer="airscanEntities">
+    <EntitySetMapping Name="measurings">
+      <EntityTypeMapping TypeName="airscanModel.measuring">
+        <MappingFragment StoreEntitySet="measurings">
+          <ScalarProperty Name="date_time" ColumnName="date_time" />
+          <ScalarProperty Name="frequency" ColumnName="frequency" />
+          <ScalarProperty Name="pdbm" ColumnName="pdbm" />
+          <ScalarProperty Name="id_measurings" ColumnName="id_measurings" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

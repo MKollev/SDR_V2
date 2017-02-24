@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="airscanModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="measuring">
+    <Key>
+      <PropertyRef Name="id_measurings" />
+    </Key>
+    <Property Name="date_time" Type="DateTime" Nullable="false" />
+    <Property Name="frequency" Type="Decimal" Nullable="false" />
+    <Property Name="pdbm" Type="Single" Nullable="false" />
+    <Property Name="id_measurings" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityContainer Name="airscanEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="measurings" EntityType="Self.measuring" />
+  </EntityContainer>
+</Schema>
